@@ -1,0 +1,5 @@
+FROM python:latest
+
+ADD Square.py /   #-->  in this one inside the docker file how to write like as a same
+
+CMD ["python","./Square.py"]
