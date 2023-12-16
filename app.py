@@ -1,4 +1,6 @@
 from flask import Flask
+from redis import Redis
+
 import os
 
 app = Flask(__name__)
